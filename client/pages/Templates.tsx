@@ -32,10 +32,10 @@ export default function Templates() {
               <CardTitle className="flex items-center gap-2">
                 <Layers className="h-5 w-5 text-primary" /> {t.title}
               </CardTitle>
-              <CardDescription className="flex items-center gap-2">
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Badge variant="secondary">{t.type}</Badge>
                 <span>{t.duration}s</span>
-              </CardDescription>
+              </div>
             </CardHeader>
             <CardContent>
               <Button size="sm" className="gap-2" asChild>
